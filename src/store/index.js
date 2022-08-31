@@ -2,13 +2,13 @@ import { createStore } from 'vuex'
 
 export default createStore({
   state: {
-  },
-  getters: {
+    recipes: [
+
+    ]
   },
   mutations: {
-  },
-  actions: {
-  },
-  modules: {
+    ADD_RECIPE (state, recipe) {
+      state.recipes.push(recipe)
+    }
   }
 })
