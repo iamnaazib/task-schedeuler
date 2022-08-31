@@ -1,4 +1,4 @@
-# recipies-app
+# task-schedeuler
 
 ## Project setup
 ```
