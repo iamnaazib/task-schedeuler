@@ -20,7 +20,7 @@
         <form @submit.prevent="addNewRecipe">
           <div class="group">
             <label>Date</label>
-            <input type="text" placeholder="dd-mm-yyyy" v-model="newRecipe.title" />
+            <input type="text" placeholder="dd-mm-yyyy(Don't use dd/mm/yyyy)" v-model="newRecipe.title" />
           </div>
 
 
